@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Example1 from './list'
 
 const navigation = [
   { name: 'Przepisy', href: '#' },
@@ -130,13 +131,14 @@ export default function Example() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-24 sm:pb-40">
+          <div className="mx-auto max-w-6xl pt-20 pb-32 sm:pt-24 sm:pb-40">
             <div>
               <div>
                 <h1 className="text-4xl text-zinc-700 font-bold tracking-tight sm:text-center sm:text-6xl">
                   Najpopularniejsze przepisy tego miesiąca
                 </h1>
               </div>
+              <Example1></Example1>
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                 <svg
                   className="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
