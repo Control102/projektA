@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Example1 from './list'
+import asd from "./src/chef-svgrepo-com.svg"
 
 const navigation = [
   { name: 'Przepisy', href: '#' },
@@ -49,7 +50,7 @@ export default function Example() {
             <div className="flex" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h-12" src="./src/chef-svgrepo-com.svg" alt="" />
+                <img className="h-12" src={asd} alt="" />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -86,7 +87,7 @@ export default function Example() {
                     <span className="sr-only">Your Company</span>
                     <img
                       className="h-12"
-                      src="./src/chef-svgrepo-com.svg"
+                      src={asd}
                       alt=""
                     />
                   </a>
