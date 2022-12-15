@@ -1,101 +1,99 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import a1 from './assets/a1.jpg'
+import a2 from './assets/a2.jpg'
+import a3 from './assets/a3.jpg'
+import a4 from './assets/a4.jpg'
+import a5 from './assets/a5.jpg'
+import a6 from './assets/a6.jpg'
+import a7 from './assets/a7.jpg'
+import a8 from './assets/a8.jpg'
+import a9 from './assets/a9.jpg'
+import a10 from './assets/a10.jpg'
+import a11 from './assets/a11.jpg'
+import a12 from './assets/a12.jpg'
+
 const products = [
     {
       id: 1,
       name: 'Kurczak tikka masala',
       href: '#',
-      imageSrc: './src/assets/a1.jpg',
+      imageSrc: a1,
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
       id: 2,
       name: 'Makaron ryżowy z kurczakiem i warzywami',
       href: '#',
-      imageSrc: './src/assets/a2.jpg',
+      imageSrc: a2,
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
       name: 'Maślane ciasteczka z czekoladą',
       href: '#',
-      imageSrc: './src/assets/a3.jpg',
+      imageSrc: a3,
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
       id: 4,
       name: 'Pieczone bataty z sosem hummusowym',
       href: '#',
-      imageSrc: './src/assets/a4.jpg',
+      imageSrc: a4,
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 5,
         name: 'Kremowa zupa czosnkowa',
         href: '#',
-        imageSrc: './src/assets/a5.jpg',
+        imageSrc: a5,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 6,
         name: 'Mocno czekoladowe ciastka',
         href: '#',
-        imageSrc: './src/assets/a6.jpg',
+        imageSrc: a6,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 7,
         name: 'Hiszpański gulasz z kurczakiem i chorizo',
         href: '#',
-        imageSrc: './src/assets/a7.jpg',
+        imageSrc: a7,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 8,
         name: 'Tiramisu w pucharkach',
         href: '#',
-        imageSrc: './src/assets/a8.jpg',
+        imageSrc: a8,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 9,
         name: 'Miodowy kurczak ze szpinakiem',
         href: '#',
-
-        imageSrc: './src/assets/a9.jpg',
+        imageSrc: a9,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 10,
         name: 'Kuleczki ziemniaczane',
         href: '#',
-        imageSrc: './src/assets/a10.jpg',
+        imageSrc: a10,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 11,
         name: 'Burrito z patelni',
         href: '#',
-        imageSrc: './src/assets/a11.jpg',
+        imageSrc: a11,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
       {
         id: 12,
         name: 'Ciasteczka twarogowe z cukrem',
         href: '#',
-        imageSrc: './src/assets/a12.jpg',
+        imageSrc: a12,
         imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
       },
     // More products...

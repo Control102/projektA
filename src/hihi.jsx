@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Example1 from './list'
-import asd from "./src/chef-svgrepo-com.svg"
+import asd from "./chef-svgrepo-com.svg"
 
 const navigation = [
   { name: 'Przepisy', href: '#' },
